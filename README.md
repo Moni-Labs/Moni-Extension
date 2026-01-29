@@ -1,6 +1,6 @@
-# <Moni Discover> — Security & Privacy
+# Moni Extension — Security & Privacy
 
-<Moni Extension> is an open-source browser extension that overlays analytics and trading tools on supported websites to help users evaluate crypto projects and social signals. This README documents security and privacy practices for users, auditors, and contributors.
+Moni Extension is an open-source browser extension that overlays analytics and trading tools on supported websites to help users evaluate crypto projects and social signals. This README documents security and privacy practices for users, auditors, and contributors.
 
 ---
 
@@ -40,7 +40,7 @@
 
 ## Permissions
 
-<Moni Extension> requests the smallest set of browser permissions required for its features. Typical permissions and their purpose:
+Moni Extension requests the smallest set of browser permissions required for its features. Typical permissions and their purpose:
 
 | Permission       | Purpose                                                                                                      |
 |------------------|--------------------------------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ We follow the **principle of least privilege**: permissions are requested only w
 
 ## What we *never* do
 
-- **Store private keys or seed phrases.** <Moni Extension> is not a wallet and never stores your private keys on the client or our servers. Transaction signing are handled by audited third-party gateway.
+- **Store private keys or seed phrases.** Moni Extension is not a wallet and never stores your private keys on the client or our servers. Transaction signing are handled by audited third-party gateway.
 - **Read clipboard contents or monitor arbitrary form input.** We only accept numeric inputs you explicitly provide for trading actions (amounts, percentages).
 - **Run mining or hidden processes.** The extension contains no background miner or cryptomining code.
 - **Collect full browsing history.** Only minimal context (e.g. the current URL when a feature is active) is accessed and only for features that require it.

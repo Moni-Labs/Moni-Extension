@@ -6,13 +6,13 @@ Moni Extension is an open-source browser extension that overlays analytics and t
 
 ## Table of contents
 
-- [Quick summary](https://www.notion.so/Github-Readme-2e6400e38d5480afab40c60ac122b24f?pvs=21)
-- [Installation](https://www.notion.so/Github-Readme-2e6400e38d5480afab40c60ac122b24f?pvs=21)
-- [Permissions](https://www.notion.so/Github-Readme-2e6400e38d5480afab40c60ac122b24f?pvs=21)
-- [What we never do](https://www.notion.so/Github-Readme-2e6400e38d5480afab40c60ac122b24f?pvs=21)
-- [Client architecture](https://www.notion.so/Github-Readme-2e6400e38d5480afab40c60ac122b24f?pvs=21)
-- [Server-side features & data storage](https://www.notion.so/Github-Readme-2e6400e38d5480afab40c60ac122b24f?pvs=21)
-- [Contacts](https://www.notion.so/Github-Readme-2e6400e38d5480afab40c60ac122b24f?pvs=21)
+- [Quick summary](#quick-summary)
+- [Installation](#installation)
+- [Permissions](#permissions)
+- [What we never do](#what-we-never-do)
+- [Client architecture](#client-architecture)
+- [Server-side features & data storage](#server-side-features--data-storage)
+- [Contacts](#contacts)
 
 ---
 

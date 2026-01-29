@@ -1,0 +1,120 @@
+.kEzRFpJ4O2JxJtjWc3He {
+    font-weight: 800;
+}
+
+.bPKsQJuJxRs7BM6gsvQw {
+    font-weight: 700;
+}
+
+.X_7WCHtvAVQrpQ2fU_ON {
+    font-weight: 600;
+}
+
+.moEifagPFSP6LuUKtmnZ {
+    font-weight: 500;
+}
+
+.cr_oxgflbUjEpkaY4O6b {
+    font-weight: 400;
+}
+
+.QJyweW6sa3DhWdSPWLzA {
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0;
+    font-family: Poppins, Helvetica;
+}
+
+.Tbz0qZbiM1ka8R5hIaw5 {
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0;
+    font-family: Poppins, Helvetica;
+}
+
+.kn8FszOxHN0MsAnGFQsz {
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0;
+    font-family: Poppins, Helvetica;
+}
+
+.apNPR9p0OwySCOxO2dvD {
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0;
+    font-family: Poppins, Helvetica;
+}
+
+.se2KjUOVCpgXHwG4glkI {
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0;
+    font-family: Poppins, Helvetica;
+}
+
+.xMJYDAJweCLYWi67Io_T {
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0;
+    font-family: Poppins, Helvetica;
+}
+
+.ETY4vS1yfx_G1Sr5OElo {
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0;
+    font-family: Poppins, Helvetica;
+}
+
+.kkLyuO9rdyxjp6NJczZD {
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0;
+    font-family: Poppins, Helvetica;
+}
+
+.AzNmZ8_0WlmPUXJtWJna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 32px 8px 8px;
+    border-radius: 16px;
+    border: 1px solid rgb(var(--surfaceStrokeUp1));
+    background: rgb(var(--surfaceLower));
+    min-height: 44px;
+}
+
+.kg5SBqtzLUTjVVJHkeAq {
+    color: rgb(var(--textInvalid));
+}
+
+.yr245eWHtqgZcMvLBi8_ {
+    color: rgb(var(--textSecondary));
+}
+
+.yjQNnbGg0GNWAFqQkZPh {
+    user-select: none;
+}
+
+.aV5MrFolGol6dP3O3i4_ {
+    position: relative;
+    width: calc(100vw - 32px);
+    max-width: 360px;
+}
+
+.l0urGlfB28shGd90qzvl {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(var(--surfaceStrokeUp1));
+    fill: rgb(var(--textPrimary));
+}
+

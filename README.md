@@ -1,18 +1,25 @@
-# Moni Extension — Security & Privacy
+# Moni Extension
 
-Moni Extension is an open-source browser extension that overlays analytics and trading tools on supported websites to help users evaluate crypto projects and social signals. This README documents security and privacy practices for users, auditors, and contributors.
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/)
+
+<p align="center">
+  <strong>Advanced Analytics & Trading Insights for Crypto Traders</strong>
+</p>
+
+<p align="center">
+  <a href="https://extension.getmoni.io/">Website</a> •
+  <a href="#quick-summary">Overview</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#permissions">Permissions</a> •
+  <a href="#what-we-never-do">Privacy & Security</a> •
+  <a href="#contacts">Contacts</a>
+</p>
 
 ---
 
-## Table of contents
+## Overview
 
-- [Quick summary](#quick-summary)
-- [Installation](#installation)
-- [Permissions](#permissions)
-- [What we never do](#what-we-never-do)
-- [Client architecture](#client-architecture)
-- [Server-side features & data storage](#server-side-features--data-storage)
-- [Contacts](#contacts)
+Moni Extension is an open-source browser extension that overlays analytics and trading tools on supported websites to help users evaluate crypto projects and social signals. This README documents security and privacy practices for users, auditors, and contributors.
 
 ---
 

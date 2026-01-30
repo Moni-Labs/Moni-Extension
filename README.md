@@ -1,6 +1,6 @@
 # Moni Extension
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Moni-Labs/Moni-Extension)
 
 <p align="center">
   <strong>Advanced Analytics & Trading Insights for Crypto Traders</strong>

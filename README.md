@@ -3,6 +3,10 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Moni-Labs/Moni-Extension)
 
 <p align="center">
+  <img src="https://storage.googleapis.com/moni-storage/New.png" alt="Moni Logo" width="128" height="128">
+</p>
+
+<p align="center">
   <strong>Advanced Analytics & Trading Insights for Crypto Traders</strong>
 </p>
 
@@ -91,4 +95,4 @@ We publish the release checksum alongside each tagged release in the `releases` 
 
 ## Contacts
 
-If you have suggestions for improvements, write to [**Echo**](https://t.me/echo0x) or use the support channel on the Chrome Web Store.
+[**Telegram**](https://t.me/+AWSMHhzJkHI2N2Zi) | [**X**](https://x.com/getmoni_io) | [**Web**](https://getmoni.io) | [**Discord**](https://discord.com/invite/getmoni)

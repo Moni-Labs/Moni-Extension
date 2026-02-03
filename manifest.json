@@ -1,63 +1,76 @@
 {
-    "manifest_version": 3,
-    "name": "Moni Extension",
-    "description": "Social analytics platform and data layer for finding, tracking, and analyzing web3 projects. Track attention and be early.",
-    "version": "2.0.0",
-    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyMDihxju0ymy+XUeike6OzBUCemdrOJqQQ+FpDDgj/jMHJ3gxDCRwx8CdTpmdOLJEctt0M/U5UT2zYnhf1pBrar+KasnPDncIobZGtZaL9b1Iu9F4xy367Mq41WOOunDq5bw3Y1nSVO0GTp2soFuR3C0300j9VMSnQyEnNPz00ibExYlDIMO2a6+arsraOSBzE5uf6EDZjwSRMAcAcIz+ansdjt16LsjaG2i2G+MVMNYWaVD/6zrby5g+DKRs/TebRy5lSHbb5r0PvmG/ApAJEekHFBQ3KT+BwfzXe+3IeigMQN2xZMxL+vPA41lb0uZmkMHHt/GLg34VJDnIMFndwIDAQAB",
-    "action" : {
-        "default_title": "Moni Extension",
-        "default_icon" : "icon128x128.png"
-    },
-    "side_panel": {
-        "default_path": "sidepanel.html"
-    },
-    "permissions": [
-        "storage",
-        "webNavigation",
-        "sidePanel",
-        "system.display",
-        "identity",
-        "tabs"
-    ],
-    "icons": {
-        "16" : "icon16x16.png",
-        "48" : "icon48x48.png",
-        "128" : "icon128x128.png"
-    },
-    "background": {
-        "service_worker": "background.js",
-        "type": "module"
-    },
-    "content_scripts": [
-        {
-            "matches": ["https://twitter.com/*", "https://x.com/*", "https://axiom.trade/*"],
-            "run_at": "document_idle",
-            "all_frames": false,
-            "js": ["contentScript.js"],
-            "css": ["contentScript.css"]
-        }
-    ],
-    "host_permissions": [
+  "manifest_version": 3,
+  "name": "Moni Extension",
+  "description": "Social analytics platform and data layer for finding, tracking, and analyzing web3 projects. Track attention and be early.",
+  "version": "2.0.2",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyMDihxju0ymy+XUeike6OzBUCemdrOJqQQ+FpDDgj/jMHJ3gxDCRwx8CdTpmdOLJEctt0M/U5UT2zYnhf1pBrar+KasnPDncIobZGtZaL9b1Iu9F4xy367Mq41WOOunDq5bw3Y1nSVO0GTp2soFuR3C0300j9VMSnQyEnNPz00ibExYlDIMO2a6+arsraOSBzE5uf6EDZjwSRMAcAcIz+ansdjt16LsjaG2i2G+MVMNYWaVD/6zrby5g+DKRs/TebRy5lSHbb5r0PvmG/ApAJEekHFBQ3KT+BwfzXe+3IeigMQN2xZMxL+vPA41lb0uZmkMHHt/GLg34VJDnIMFndwIDAQAB",
+  "action": {
+    "default_title": "Moni Extension",
+    "default_icon": "icon128x128.png"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "permissions": [
+    "storage",
+    "webNavigation",
+    "sidePanel",
+    "system.display",
+    "identity",
+    "tabs"
+  ],
+  "icons": {
+    "16": "icon16x16.png",
+    "48": "icon48x48.png",
+    "128": "icon128x128.png"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
         "https://twitter.com/*",
+        "https://x.com/*",
         "https://axiom.trade/*",
-        "https://twitter-bot.getmoni.io/api/*",
-        "https://www.google-analytics.com/*"
-    ],
-    "web_accessible_resources": [
-        {
-            "resources": ["contentScript.css"],
-            "matches": ["https://twitter.com/*", "https://x.com/*", "https://axiom.trade/*"]
-        }
-    ],
-    "externally_connectable": {
-        "matches": [
-          "http://localhost:3000/*",
-          "https://discover.getmoni.io/*",
-          "https://discovertest.getmoni.io/*",
-          "https://twitter.com/*",
-          "https://x.com/*",
-          "https://axiom.trade/*",
-          "https://test.api.printer.getmoni.io/*"
-        ]
+        "https://trade.padre.gg/*"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false,
+      "js": ["contentScript.js"],
+      "css": ["contentScript.css"]
     }
+  ],
+  "host_permissions": [
+    "https://twitter.com/*",
+    "https://axiom.trade/*",
+    "https://trade.padre.gg/*",
+    "https://axiom.trade/*",
+    "https://twitter-bot.getmoni.io/api/*",
+    "https://www.google-analytics.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["contentScript.css"],
+      "matches": [
+        "https://twitter.com/*",
+        "https://x.com/*",
+        "https://axiom.trade/*",
+        "https://trade.padre.gg/*"
+      ]
+    }
+  ],
+  "externally_connectable": {
+    "matches": [
+      "http://localhost:3000/*",
+      "https://discover.getmoni.io/*",
+      "https://discovertest.getmoni.io/*",
+      "https://twitter.com/*",
+      "https://x.com/*",
+      "https://axiom.trade/*",
+      "https://trade.padre.gg/*",
+      "https://test.api.printer.getmoni.io/*"
+    ]
+  }
 }

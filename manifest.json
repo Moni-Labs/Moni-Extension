@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Moni Extension",
+  "name": "Moni",
   "description": "Social analytics platform and data layer for finding, tracking, and analyzing web3 projects. Track attention and be early.",
-  "version": "2.1.0",
+  "version": "2.3.1",
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyMDihxju0ymy+XUeike6OzBUCemdrOJqQQ+FpDDgj/jMHJ3gxDCRwx8CdTpmdOLJEctt0M/U5UT2zYnhf1pBrar+KasnPDncIobZGtZaL9b1Iu9F4xy367Mq41WOOunDq5bw3Y1nSVO0GTp2soFuR3C0300j9VMSnQyEnNPz00ibExYlDIMO2a6+arsraOSBzE5uf6EDZjwSRMAcAcIz+ansdjt16LsjaG2i2G+MVMNYWaVD/6zrby5g+DKRs/TebRy5lSHbb5r0PvmG/ApAJEekHFBQ3KT+BwfzXe+3IeigMQN2xZMxL+vPA41lb0uZmkMHHt/GLg34VJDnIMFndwIDAQAB",
   "action": {
     "default_popup": "popup.html",
@@ -40,15 +40,7 @@
       "css": ["contentScript.css"]
     }
   ],
-  "host_permissions": [
-    "https://twitter.com/*",
-    "https://axiom.trade/*",
-    "https://trade.padre.gg/*",
-    "https://axiom.trade/*",
-    "https://twitter-bot.getmoni.io/api/*",
-    "https://test.api.printer.getmoni.io/*",
-    "https://www.google-analytics.com/*"
-  ],
+  "host_permissions": ["<all_urls>"],
   "web_accessible_resources": [
     {
       "resources": ["contentScript.css"],

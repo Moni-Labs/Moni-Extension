@@ -94,29 +94,57 @@
     color: rgb(var(--textSecondary));
 }
 
+.V2OhcxW5iWDc_eTbs75g {
+    display: inline-flex;
+    padding: 0;
+    padding-inline: 0;
+    padding-block: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    user-select: none;
+    box-sizing: border-box;
+    height: fit-content;
+
+    &.bFrSzvYpslUWlJzuN8UD {
+        width: fit-content;
+    }
+
+    &.jFuVt1Xasz401tP0pB8W {
+        width: 100%;
+    }
+}
+
 .u52ax3JkvCwVToxDKYFv {
-    --buttonBorderColor: rgb(var(--surfaceStrokeUp1));
-    --buttonBackgroundColor: rgb(var(--surfaceSecondary));
-    --buttonColor: rgb(var(--textPrimary));
-    --buttonBackgroundColorHover: rgb(var(--stateSurfaceSecondaryHover));
-    --buttonBorderWidth: 1px;
-    --buttonBorderRadius: 8px;
+    --borderColor: rgb(var(--surfaceStrokeUp1));
+    --backgroundColor: rgb(var(--surfaceSecondary));
+    --color: rgb(var(--textPrimary));
+    --backgroundColorHover: rgb(var(--stateSurfaceSecondaryHover));
+    --borderWidth: 0;
+    --borderRadius: 8px;
     --paddingX: auto;
-    --paddingY: auto;
-    --buttonTransitionDuration: 0.2s;
+    --transitionDuration: 0.3s;
 
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: inherit;
     padding-inline: var(--paddingX);
-    padding-block: var(--paddingY);
-    border-width: var(--buttonBorderWidth);
+    border-width: var(--borderWidth);
     border-style: solid;
-    border-color: var(--buttonBorderColor);
-    border-radius: var(--buttonBorderRadius);
-    background-color: var(--buttonBackgroundColor);
-    color: var(--buttonColor);
-    transition: transform var(--buttonTransitionDuration), opacity var(--buttonTransitionDuration), background-color var(--buttonTransitionDuration);
+    border-color: var(--borderColor);
+    border-radius: var(--borderRadius);
+    background-color: var(--backgroundColor);
+    color: var(--color);
+    transition: transform var(--transitionDuration), opacity var(--transitionDuration), background-color var(--transitionDuration);
     cursor: pointer;
+    white-space: nowrap;
+
+    &.H3qlzjbkMZSIzAVSHGsc {
+        aspect-ratio: 1 / 1;
+    }
 
     &.fLdleYh6SCeLW1LyrHZY {
         opacity: 0.5;
@@ -124,39 +152,125 @@
         user-select: none;
     }
 
-    &:not(.fLdleYh6SCeLW1LyrHZY, .VljPPV5nC3tpL9E2c_RG):hover {
-        background-color: var(--buttonBackgroundColorHover);
+    &.m_o7IhenvJjdkScR_irO {
+        --paddingX: 8px;
+
+        gap: 8px;
+        height: 40px;
     }
 
-    &.XpGAO7nOauas0XqiQZE0 {
+    &.HOf4k2zyOp0JvNPkXtPJ {
+        --paddingX: 8px;
+
+        gap: 6px;
+        height: 30px;
+    }
+
+    &.u_8B0sDVaICxVS_vfwi7 {
+        --paddingX: 4px;
+        --borderRadius: 10px;
+
+        &:has(span) {
+            --paddingX: 8px;
+        }
+
+        height: 20px;
+    }
+
+    &.sRgQ98obfPotq4oHkgBg {
         --paddingX: 2px;
-        --paddingY: 2px;
-        --buttonBorderRadius: 50%;
+
+        gap: 4px;
+        height: 16px;
+
+        &:has(span) {
+            --paddingX: 6px;
+        }
     }
 
     &.OtQNUaulkY5bQqaJHUKT {
-        --buttonBackgroundColor: rgb(var(--surfaceAccent));
-        --buttonColor: rgb(var(--textPrimaryAccent));
+        --backgroundColor: rgb(var(--surfaceAccent));
+        --color: rgb(var(--textPrimaryAccent));
 
-        border: none;
+        &:not(.fLdleYh6SCeLW1LyrHZY):hover {
+            --backgroundColor: rgb(var(--stateSurfaceAccentHover));
+        }
     }
 
-    &.OtQNUaulkY5bQqaJHUKT:not(.fLdleYh6SCeLW1LyrHZY, .VljPPV5nC3tpL9E2c_RG):hover {
-        background-color: rgb(var(--stateSurfaceAccentHover));
+    &.Eg7jCXqmSB25DimtIz4w {
+        --borderWidth: 1px;
+        --borderColor: rgb(var(--surfaceStrokeUp));
+        --backgroundColor: rgb(var(--surfaceStroke));
+        --color: rgb(var(--textPrimaryAccent));
+
+        &:not(.fLdleYh6SCeLW1LyrHZY):hover {
+            --backgroundColor: rgb(var(--surfaceStrokeUp));
+        }
     }
 
-    &.Eg7jCXqmSB25DimtIz4w,
-    &.Eg7jCXqmSB25DimtIz4w:not(.fLdleYh6SCeLW1LyrHZY, .VljPPV5nC3tpL9E2c_RG):hover {
-        --buttonBackgroundColor: rgb(var(--surfaceStrokeUp));
-        --buttonBackgroundColorHover: rgb(var(--surfaceStrokeUp));
-        --buttonColor: rgb(var(--textSecondary));
+    &.OE6OmTpXrFIF_taSQw0R {
+        --borderWidth: 1px;
+        --borderColor: rgb(var(--surfaceStrokeUp));
+        --backgroundColor: rgb(var(--surfaceStroke));
+        --color: rgb(var(--textSecondary));
 
-        border: none;
+        &:not(.fLdleYh6SCeLW1LyrHZY):hover {
+            --backgroundColor: rgb(var(--surfaceStrokeUp));
+            --color: rgb(var(--textPrimary));
+        }
     }
-}
 
-.yjQNnbGg0GNWAFqQkZPh {
-    user-select: none;
+    &.NV2VtAuCrJMZiGsLIArX {
+        --backgroundColor: rgb(var(--surfaceStrokeUp));
+        --color: rgb(var(--textSecondary));
+
+        &:not(.fLdleYh6SCeLW1LyrHZY):hover {
+            --backgroundColor: rgb(var(--surfaceStrokeUp1));
+            --color: rgb(var(--textPrimary));
+        }
+    }
+
+    &.WHw8KqMKDIzwjF_LBsST {
+        --backgroundColor: rgb(var(--positiveTrade));
+        --color: rgb(var(--bgPrimary));
+
+        &:not(.fLdleYh6SCeLW1LyrHZY):hover {
+            --backgroundColor: rgb(var(--positiveTradeHover));
+        }
+    }
+
+    &.vrq8ZQ8hl0NbHO065RVm {
+        --borderWidth: 1px;
+        --borderColor: rgb(var(--positiveTrade));
+        --backgroundColor: trasparent;
+        --color: rgb(var(--positiveTrade));
+
+        &:not(.fLdleYh6SCeLW1LyrHZY):hover {
+            --backgroundColor: rgb(var(--positiveTrade));
+            --color: rgb(var(--bgPrimary));
+        }
+    }
+
+    &.x8tOcRm1694Tk1MBZPow {
+        --backgroundColor: rgb(var(--negativeTrade));
+        --color: rgb(var(--bgPrimary));
+
+        &:not(.fLdleYh6SCeLW1LyrHZY):hover {
+            --backgroundColor: rgb(var(--negativeTradeHover));
+        }
+    }
+
+    &.SiOrYblzZ5o6LYg6o1KW {
+        --borderWidth: 1px;
+        --borderColor: rgb(var(--negativeTrade));
+        --backgroundColor: trasparent;
+        --color: rgb(var(--negativeTrade));
+
+        &:not(.fLdleYh6SCeLW1LyrHZY):hover {
+            --backgroundColor: rgb(var(--negativeTrade));
+            --color: rgb(var(--bgPrimary));
+        }
+    }
 }
 
 .aV5MrFolGol6dP3O3i4_ {
@@ -169,16 +283,5 @@
     position: absolute;
     top: 12px;
     right: 12px;
-    background-color: rgb(var(--surfaceStrokeUp));
-    fill: rgb(var(--textSecondary));
-    border-radius: 50%;
-}
-
-.MtBXXW_Wiwwn1XVmUAkL {
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 

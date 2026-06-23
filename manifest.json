@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Moni",
-  "description": "Social analytics platform and data layer for finding, tracking, and analyzing web3 projects. Track attention and be early.",
-  "version": "2.7.0",
+  "description": "The intelligence and trading layer that follows you.",
+  "version": "2.9.1",
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyMDihxju0ymy+XUeike6OzBUCemdrOJqQQ+FpDDgj/jMHJ3gxDCRwx8CdTpmdOLJEctt0M/U5UT2zYnhf1pBrar+KasnPDncIobZGtZaL9b1Iu9F4xy367Mq41WOOunDq5bw3Y1nSVO0GTp2soFuR3C0300j9VMSnQyEnNPz00ibExYlDIMO2a6+arsraOSBzE5uf6EDZjwSRMAcAcIz+ansdjt16LsjaG2i2G+MVMNYWaVD/6zrby5g+DKRs/TebRy5lSHbb5r0PvmG/ApAJEekHFBQ3KT+BwfzXe+3IeigMQN2xZMxL+vPA41lb0uZmkMHHt/GLg34VJDnIMFndwIDAQAB",
   "action": {
     "default_popup": "popup.html",
@@ -38,7 +38,8 @@
         "https://moni.ai/extension/*",
         "https://getmoni.io/extension/*",
         "https://trade.padre.gg/*",
-        "https://dexscreener.com/*"
+        "https://dexscreener.com/*",
+        "https://gmgn.ai/*"
       ],
       "run_at": "document_idle",
       "all_frames": false,
@@ -55,17 +56,19 @@
         "https://x.com/*",
         "https://axiom.trade/*",
         "https://trade.padre.gg/*",
-        "https://dexscreener.com/*"
+        "https://dexscreener.com/*",
+        "https://gmgn.ai/*"
       ]
     },
     {
-      "resources": ["/img/trading/hacker.gif"],
+      "resources": ["/img/trading/hacker.gif", "img/integrations/*"],
       "matches": [
         "https://twitter.com/*",
         "https://x.com/*",
         "https://axiom.trade/*",
         "https://trade.padre.gg/*",
-        "https://dexscreener.com/*"
+        "https://dexscreener.com/*",
+        "https://gmgn.ai/*"
       ]
     }
   ],
@@ -79,6 +82,9 @@
       "https://axiom.trade/*",
       "https://trade.padre.gg/*",
       "https://dexscreener.com/solana/*",
+      "https://dexscreener.com/ethereum/*",
+      "https://gmgn.ai/sol/token/*",
+      "https://gmgn.ai/eth/token/*",
       "https://api.moni.ai/*",
       "https://api.test.moni.ai/*",
       "https://test.api.printer.getmoni.io/*"

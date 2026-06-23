@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_468_9437)">
+<path d="M8 30V32H30V30H28V26H26V24H28V22H30V20H32V12H30V4H28V2H22V4H20V8H18V4H16V2H10V4H8V12H4V10H0V20H2V22H8V24H12V26H10V30H8Z" fill="#9ED455"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 2H14V4H16V6V8V10H18H20H22V8V6V4L20 4V6V8H18V6V4H16V2ZM6 20H8V22H6H4H2L2 20H4H6ZM4 12H2L2 14L2 16V18L2 20H0V18V16V14V12V10H2H4V12ZM4 12V14H6H8V12H10V10V8V6V4L8 4V6V8V10V12H6H4ZM12 26V24H10H8V22H10H12H14V24V26H12ZM10 30V28V26H12V28V30H10ZM10 30V32H8V30H10ZM30 30H28V28V26H26V24H28V22H30V20H32V18V16V14V12H30V10V8V6V4H28V2H26V4H28V6V8V10V12H30V14V16V18V20H28V22H26H24V24V26H26V28V30H28V32H30V30Z" fill="#457F2C"/>
+<rect x="10" y="6" width="4" height="6" fill="white"/>
+<rect x="10" y="8" width="2" height="4" fill="black"/>
+<rect x="12" y="18" width="2" height="6" transform="rotate(90 12 18)" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14 4V6L10 6V4H14ZM4 14L4 12H2V14H4ZM4 14H10V16H4V14ZM26 6V4H22V6L26 6Z" fill="#D5F86B"/>
+<rect x="22" y="30" width="2" height="10" transform="rotate(90 22 30)" fill="#D09C4F"/>
+<rect x="22" y="28" width="2" height="8" transform="rotate(90 22 28)" fill="#D09C4F"/>
+<rect x="20" y="26" width="2" height="6" transform="rotate(90 20 26)" fill="#D09C4F"/>
+<rect x="20" y="24" width="2" height="4" transform="rotate(90 20 24)" fill="#D09C4F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28 12V6H26V12H28ZM10 14V12H8V14H10ZM6 18V20H2V18H6ZM30 20V18V14H28V18H26V20H22V22V24H20V26H22H24V30H26V32H28V30H26V26H24V22H28V20H30ZM14 20V22H8V20H14ZM14 26V22H16V26H14ZM12 30V26H14V30H12ZM12 30H10V32H12V30ZM22 10V12H20V10H22Z" fill="#57A756"/>
+<rect x="22" y="6" width="4" height="6" fill="white"/>
+<rect x="22" y="8" width="2" height="4" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_468_9437">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>
